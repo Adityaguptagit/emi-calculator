@@ -1,0 +1,21 @@
+#home-loan {
+  cursor: pointer;
+}
+#personal-loan {
+  cursor: pointer;
+}
+#car-loan {
+  cursor: pointer;
+}
+#home-loan:active {
+  background-color: #e1e4e8;
+  border-radius: 12px;
+}
+#personal-loan:active {
+  background-color: #e1e4e8;
+  border-radius: 12px;
+}
+#car-loan:active {
+  background-color: #e1e4e8;
+  border-radius: 12px;
+}
