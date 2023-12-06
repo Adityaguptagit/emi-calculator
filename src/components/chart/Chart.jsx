@@ -11,14 +11,7 @@ function Chart() {
   // console.log("loanAmount::", loanAmount);
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "12px",
-        }}
-        className="p-5 mx-5 w-full lg:w-1/2 md:flex-col h-full"
-      >
+      <div className="flex flex-wrap p-5 mx-5  lg:w-1/2 md:flex-col h-full justify-center">
         <Pie
           data={{
             labels: ["Total Interest", "Principal Loan Amount"],

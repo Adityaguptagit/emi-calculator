@@ -36,7 +36,7 @@ function Computation() {
   //console.log("payableInterest:::::", payableInterest);
   return (
     <>
-      <div className="flex p-5 mx-5 flex-col w-full h-full lg:w-1/2 md:flex-col">
+      <div className="flex justify-center p-5 mx-5 flex-wrap flex-col lg:w-1/2 md:flex-col">
         <div className="font-oswald text-xl flex justify-center ">Loan EMI</div>
 
         <div className="font-oswald flex justify-center mt-2">

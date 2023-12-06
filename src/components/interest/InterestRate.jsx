@@ -11,10 +11,7 @@ function InterestRate() {
   // console.log("loaninterest::", loanInterest);
   return (
     <>
-      <div
-        className="flex justify-center p-5 mx-5 flex-wrap w-full h-full
-      "
-      >
+      <div className="flex justify-center p-5 mx-5 flex-wrap w-full h-full">
         <div className="heading p-3 m-1 text-xl font-oswald">Interest Rate</div>
         <div className="input p-3 m-1 w-full h-full lg:w-60 md:w-60">
           <input
